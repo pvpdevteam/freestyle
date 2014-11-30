@@ -15,10 +15,6 @@ Route::get('/', array(
 	'uses'=>'ProductController@index'
 ));
 
-Route::get('nopu',function(){
-	return View::make('test');
-});
-
 Route::get('product-detail',function(){
 	return View::make('product.product_detail');
 });
