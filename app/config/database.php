@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'fashion',
+			'database'  => 'pvp_fashion',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

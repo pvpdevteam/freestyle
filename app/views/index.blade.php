@@ -132,8 +132,8 @@
 											@foreach($features as $feature)
 												<li class="active">
 													<a href="#">
-														<img src="{{asset('public/uploads')}}/{{$feature->Images}}" />
-														<div><span>{{$feature->NameProduct}}</span>
+														<img src="{{asset('public/uploads')}}/{{$feature->Image}}" />
+														<div><span>{{$feature->Name}}</span>
 															<input type="button" class="showmore" value="show me more">
 														</div>
 													</a>
@@ -147,9 +147,9 @@
 										@foreach($all_products as $all_product)
 											<div class="col-sm-6 col-md-4">
 										        <div class="thumbnail">
-										          <img src="{{asset('public/uploads')}}/{{$all_product->Images}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
+										          <img src="{{asset('public/uploads')}}/{{$all_product->Image}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
 										          <div class="caption">
-										            <h3>{{$all_product->NameProduct}}</h3>
+										            <h3>{{$all_product->Name}}</h3>
 										            <div class="summ">${{$all_product->Regular_Price}}</div>
 										            <p><a href="#" class="btn btn-primary" role="button">Detail</a> <a href="#" class="btn btn-default" role="button">Add to Cart</a></p>
 										          </div>
@@ -164,9 +164,9 @@
 										@foreach($woman_products as $woman_product)
 											<div class="col-sm-6 col-md-4">
 										        <div class="thumbnail">
-										          <img src="{{asset('public/uploads')}}/{{$woman_product->Images}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
+										          <img src="{{asset('public/uploads')}}/{{$woman_product->Image}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
 										          <div class="caption">
-										            <h3>{{$woman_product->NameProduct}}</h3>
+										            <h3>{{$woman_product->Name}}</h3>
 										            <div class="summ">${{$woman_product->Regular_Price}}</div>
 										            <p><a href="#" class="btn btn-primary" role="button">Detail</a> <a href="#" class="btn btn-default" role="button">Add to Cart</a></p>
 										          </div>
@@ -181,9 +181,9 @@
 										@foreach($men_products as $men_product)
 											<div class="col-sm-6 col-md-4">
 										        <div class="thumbnail">
-										          <img src="{{asset('public/uploads')}}/{{$men_product->Images}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
+										          <img src="{{asset('public/uploads')}}/{{$men_product->Image}}" data-src="holder.js/100%x200" alt="100%x200" style="height: 265px; width: 100%; display: block;">
 										          <div class="caption">
-										            <h3>{{$men_product->NameProduct}}</h3>
+										            <h3>{{$men_product->Name}}</h3>
 										            <div class="summ">${{$men_product->Regular_Price}}</div>
 										            <p><a href="#" class="btn btn-primary" role="button">Detail</a> <a href="#" class="btn btn-default" role="button">Add to Cart</a></p>
 										          </div>
